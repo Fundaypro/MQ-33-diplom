@@ -57,7 +57,7 @@ a:hover .hover-tag-effect::after {
   ***********************/
 
 .page-header {
-  background-image: url(src//sources/img/banner-bg.jpg);
+  background-image: url(src/sources/img/banner-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -536,7 +536,39 @@ form.search-form {
 .topic-list-item-name:hover {
   color: #b59f5b;
 }
+/******************
+****OUR PODUCTS****
+******************/
+.our-products-container{
+  width: 1200px;
+  margin: 65px auto 0;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+.our-products-title{
+  font-family: "Open Sans-Bold";
+  font-size: 20px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin-bottom: 65px;
+}
+.our-products-title::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 66px;
+  height: 3px;
+  background-color: #e1d9bd;
+  top: 30px;
 
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
 /******************
 *****footer*******
 *****************/
